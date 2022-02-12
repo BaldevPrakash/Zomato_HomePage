@@ -1,0 +1,284 @@
+body
+{
+  background-color: #edc7c7;
+  margin:0px;
+  padding:0px;
+}
+
+#coupon{
+    height:400px;
+    width:400px;
+    z-index: 100;
+    background-image: url("https://geeekypedia.com/wp-content/uploads/2019/01/zomato-offer-code-2020.jpeg");
+    position: absolute;
+    background-size: 100% 400px;
+    margin-top:10%;
+    margin-left:35%;
+    position:fixed;
+    visibility:hidden;
+
+}
+#coupon>img{
+    height:400px;
+    width:400px;
+}
+
+#header_part
+{
+   height:60px;
+   width:100%;
+}
+#header{
+    height: 60px;
+    background-color: #b76e6e;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    border-radius:11px;
+    
+}
+
+#icon{
+    margin-left: 1%;
+    margin-top:-1%;
+    position: absolute;
+    color:#fff;
+}
+
+#icon > h1 >a {
+    color:#fff !important;
+}
+
+#social{
+    float: right;
+    margin-right: 1%;
+}
+
+a{
+    text-decoration: none ;
+}
+.slogo{
+    height:40px;
+    width:40px;
+    margin-top:10px;
+    margin-right: 5px;
+}
+
+#container1
+{   
+    height:630px;
+    width:98%;
+}
+
+#part1
+{
+    height: 600px;
+    width: 100%;
+    margin-top:1px;
+    background-image: url("https://i.pinimg.com/originals/e1/2a/8e/e12a8ea15dc3cf40777ea8d7b01142d2.jpg");
+    background-size: cover;
+    background-size: 100% 600px;
+    border-radius:11px;
+    background-repeat: no-repeat; 
+    margin:13px;
+    
+    
+   
+}
+
+#part2
+{
+    
+    height: 600px;
+    width: 100%;
+}
+#Quick_Search 
+{
+    font-size: 40px;
+    margin-left: 3%;
+}
+/*
+search_part{
+    background: #0000008a;
+    top: 0px;
+    left: 0px;
+    height:600px;
+    width:100%;
+    position: absolute;
+    z-index: 1;
+} */
+
+/* Search Css 
+#search{
+    height: 400px;
+    background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1538");
+    border-radius:11px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 600px;
+}*/
+
+#inside_logo
+{
+    margin-top:28%;
+    margin-left:22%;
+    font-size:30px;
+
+
+
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size:20px;
+    color:#df7839;
+
+    animation: movelogo 20s infinite;
+}
+
+@keyframes movelogo {
+    0% {margin-left: 45%;}
+    20% {margin-left: 40%;}
+    60% {margin-left: 45%;}
+    85% {margin-left: 40%;}
+    100% {margin-left: 45%;} 
+}
+
+
+
+#logo > span {
+    margin-left: 31%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+#heading{
+    margin-left: 25.3%;
+    margin-top: 12%;
+    position: absolute;
+    font-size:45px;
+    color:white
+}
+
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 26%;
+    margin-top: 1%;
+    position: absolute;
+    border-radius:30px;
+}
+
+.Select_City{
+    height:60px;
+    width:32%;
+    border-radius:30px;
+    margin-top: 24.8%;
+    margin-left: -2%;
+}
+
+.Select_Restaurant{
+    width:50%;
+    height:60px;
+    border-radius:30px;
+}
+.tileContainer{
+    height:180px;
+    width:28%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 4%;
+    background-color:#b76e6e;
+    border-radius:20px;
+    animation: dance 10s infinite
+}
+/*
+@keyframes dance {
+    0% {transform:rotate(-5deg)}
+    25% {transform:rotate(0deg)}
+    50% {transform:rotate(5deg)}
+    75% {transform:rotate(0deg)}
+    100% {transform:rotate(-5deg)}
+}*/
+
+.tileContainer:hover
+{
+    transform: scale(1.1);
+
+    /*box-shadow: 10px 20px 15px black;
+    border-radius:20px;
+    height:190px;
+    width:33%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+    background-color:#2c4848;*/
+}
+.tileComponent1{
+    width:50%;
+    float: left;
+    height:180px;
+}
+
+.tileComponent1 >img{
+    width:100%;
+    height:180px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.tileComponent2{
+    width:40%;
+    float: left;
+    height:100px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+.componentHeading{
+    color: #ac3b61;
+    font-size: 40px ;
+    
+}
+
+.componentHeading > a{
+    
+    color:white !important ;
+    
+}
+
+.componentSubHeading
+{
+    color:#ffcb9a;
+    font-size: 25px;
+    margin-top: 9px;
+}   
+
+#footer
+{   margin-top:32%;
+    margin-left:2px;
+    margin-right:2px;
+    width: 100%;
+    height:50px;
+    position:absolute;
+    font-size: 20px;
+    background-color: #b76e6e;
+    background-size: 98% 50px;
+    border-radius: 10px;
+
+}
+
+#footer_content {
+    margin-top:14px;
+    color: white;
+    margin-left:45%;
+}

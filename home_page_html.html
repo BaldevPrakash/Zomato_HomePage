@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <title> Zomato Cloner </title>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="home_page_css.css" rel="stylesheet" type="text/css"/>
+        <script src="Home_Page.js"></script>
+</head>
+
+<body>
+
+    <div id="header_part">
+        <!--Header Portion-->
+        <header id="header">
+            <div id="icon">
+                <h1><b>Zomato Cloner</b></h1>
+            </div>
+            <div id="social">
+                <a href="https://www.facebook.com/" target="_blank" >
+                    <img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="Facebook" class="slogo"/>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Instagram" class="slogo"/>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="https://clipart.info/images/ccovers/1590430652red-youtube-logo-png-xl.png" alt="youtube" class="slogo"/>
+                </a>
+            </header>
+            <!--Header Portion Ends-->
+        
+     </div>
+    
+
+    <div id="container1">
+        
+        <div id="coupon">
+            <button type="button" onclick="Close_div()">&times;</button>
+            
+        </div>
+         
+
+         <div id="part1">
+            <!-- Search Start-->
+        
+            <div class="overlay"></div>
+            
+            <div id="search_part">
+            <div id="logo">
+                <div id="inside_logo">
+                 <span>Zomato Cloner</span>
+            </div>
+            </div>
+            <div id="heading">
+                Find The Best Restaurants Near You
+            </div>
+            <div class="dropdown">
+                 <select class="Select_City">
+                     <option>----SELECT CITY----</option>
+                     <option>Delhi</option>
+                     <option>Mumbai</option>
+                     <option>Pune</option>
+                 </select>
+                 <select class="Select_Restaurant">
+                     <option>----SELECT RESTAURANTS----</option>
+                     <option></option>
+                     <option></option>
+                     <option></option>
+
+                 </select>
+            </div>
+           </div> 
+         
+         <!-- Search End-->
+        
+         </div>  
+
+     </div>
+    
+    <div id="part2">
+
+        <div id="Quick_Search"> Quick Search Your Favourite Item</div>
+
+        <div class="mainTile">
+                <div class="tileContainer" >
+                   
+                    <div class="tileComponent1">
+                        <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__480.jpg" alt="pizza"/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                           Pizza
+                        </div>
+                        <div class="componentSubHeading">
+                            Enjoy Your Pizza
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="tileContainer">
+                  
+                        <div class="tileComponent1">
+                            <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2018/04/Aloo-Chaat-Recipe.jpg" alt="chaat"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Chaat
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Chaat
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+                <div class="tileContainer">
+                    
+                        <div class="tileComponent1">
+                            <img src="https://www.ruchiskitchen.com/wp-content/uploads/2020/12/Paneer-butter-masala-recipe-3-500x375.jpg" alt="Paneer"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Paneer
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Paneer Made Meal
+                            </div>
+                        </div>
+                   
+                    
+                </div>
+                <div class="tileContainer">
+                   
+                        <div class="tileComponent1">
+                            <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe-500x375.jpg" alt="biryani"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Biryani
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Biryani
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+                <div class="tileContainer">
+                   
+                        <div class="tileComponent1 ">
+                            <img src="https://www.whiskaffair.com/wp-content/uploads/2020/03/Hakka-Noodles-2-3.jpg" alt="noodles"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Noodles
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Noodles
+                            </div>
+                        </div>
+                        
+                   
+                    
+                </div>
+                <div class="tileContainer">
+                   
+                        <div class="tileComponent1">
+                            <img src="https://static.toiimg.com/photo/75508582.cms" alt="Desert"/>
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Deserts
+                            </div>
+                            <div class="componentSubHeading">
+                                Enjoy Your Deserts
+                            </div>
+                        
+                    
+                    
+                </div>        
+
+    </div >
+    
+    <script>
+        window.onload=coupon()
+    </script>
+    
+    
+    <footer id="footer"> <div id="footer_content"> &copy;Zomato Cloner </div> </footer>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
